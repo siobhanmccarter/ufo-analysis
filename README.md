@@ -2,11 +2,11 @@
 
 ## Data Set
 
-For this analysis, I am using the [scrubbed UFO sightings data set](https://www.kaggle.com/NUFORC/ufo-sightings) set from Kaggle. This data set uses a collection of sightings the location of sighting, the shape of the UFO in question, and other descriptors. 
+For this analysis, I am using the [scrubbed UFO sightings data set](https://www.kaggle.com/NUFORC/ufo-sightings) set from Kaggle. This data set uses a collection of descriptors of global UFO sightings over time, including the location of sighting, the shape of the UFO in question, and other variables. 
 
 ## Question
 
-Is there any discernable pattern to the frequency of UFO sightings in the US? 
+Is there any discernable pattern to the frequency of UFO sightings in the US by state? 
 
 ## Hypothesis
 
