@@ -1,6 +1,7 @@
 # Data analysis script
 
 ## Loading dependencies
+
 library(tidyverse)
 library(lubridate)
 
