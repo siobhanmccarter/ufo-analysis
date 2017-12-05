@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1512499110611.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AD1FE10C",
+    "lastKnownWriteTime" : 4761583631,
+    "last_content_update" : 1512499110611,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "8276AAFD",
+        "caption" : "shapestate",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=shapestate&cache_key=8276AAFD",
+        "displayedObservations" : 1111,
+        "environment" : "",
+        "object" : "shapestate",
+        "preview" : 0,
+        "totalObservations" : 1111,
+        "variables" : 3
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

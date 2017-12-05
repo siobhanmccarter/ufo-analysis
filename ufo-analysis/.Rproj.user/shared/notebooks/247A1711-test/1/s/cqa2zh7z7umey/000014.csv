@@ -1,0 +1,4 @@
+"0","test <- full_join(usstate, states)"
+"2","Joining, by = ""state""
+"
+"0","test"

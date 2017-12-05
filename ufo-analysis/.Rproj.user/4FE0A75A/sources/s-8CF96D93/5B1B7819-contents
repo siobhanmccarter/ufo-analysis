@@ -4,11 +4,15 @@
 
 library(tidyverse)
 library(lubridate)
+library(ggmap)
 
 
 scrubbed <- read_csv("data/scrubbed.csv")
 
-countries <- scrubbed %>% 
-  group_by(country) %>% 
-  summarise(count = n()) %>% 
-  arrange(desc(count))
+# checking the count of sightings per state
+usstate <- scrubbed %>%
+  filter(country == "us") %>% 
+  group_by(state) %>% 
+  summarise(count = n())
+
+map_data("state")

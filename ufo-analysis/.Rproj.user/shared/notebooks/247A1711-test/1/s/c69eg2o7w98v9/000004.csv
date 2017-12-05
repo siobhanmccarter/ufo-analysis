@@ -1,0 +1,3 @@
+"0","states$State <- str_to_lower(states$State)"
+"0","states$Abbreviation <- str_to_lower(states$Abbreviation)"
+"0","colnames(states) <- c(""name"", ""state"")"

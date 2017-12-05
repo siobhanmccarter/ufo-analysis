@@ -28,6 +28,12 @@ Source: CRAN
 Version: 0.12.14
 Hash: f9a2a481350397e53b0768bf488329cd
 
+Package: RgoogleMaps
+Source: CRAN
+Version: 1.4.1
+Hash: 3310ba24c8436b297d1fb60ac4324ff2
+Requires: png
+
 Package: assertthat
 Source: CRAN
 Version: 0.2.0
@@ -132,6 +138,19 @@ Version: 0.2.0
 Hash: e5a3b0b96a39f5581467b0c6366f7408
 Requires: magrittr, tibble
 
+Package: geosphere
+Source: CRAN
+Version: 1.5-7
+Hash: 006396aaed8f45b60f39b9a31537859d
+Requires: sp
+
+Package: ggmap
+Source: CRAN
+Version: 2.6.1
+Hash: 3e5545418aab1ad8e47c218236dd4f0b
+Requires: RgoogleMaps, digest, geosphere, ggplot2, jpeg, mapproj, plyr,
+    png, proto, reshape2, rjson, scales
+
 Package: ggplot2
 Source: CRAN
 Version: 2.2.1
@@ -177,6 +196,11 @@ Version: 1.3.1
 Hash: 2d32e01e53d532c812052e27a1021441
 Requires: R6, curl, jsonlite, mime, openssl
 
+Package: jpeg
+Source: CRAN
+Version: 0.1-8
+Hash: 189af3df9864c6aa8546033f08ba9358
+
 Package: jsonlite
 Source: CRAN
 Version: 1.5
@@ -208,6 +232,17 @@ Package: magrittr
 Source: CRAN
 Version: 1.5
 Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: mapproj
+Source: CRAN
+Version: 1.2-5
+Hash: c1a918323e5d768ca1a5f91eea5571af
+Requires: maps
+
+Package: maps
+Source: CRAN
+Version: 3.2.0
+Hash: 086a0f4e41bf42749d8737e9407a4853
 
 Package: markdown
 Source: CRAN
@@ -263,6 +298,16 @@ Version: 1.8.4
 Hash: 39dd3286b865c7b725d74c9a4c1b7931
 Requires: Rcpp
 
+Package: png
+Source: CRAN
+Version: 0.1-7
+Hash: 421d7d6e0fb4bd885ecbd909b6456b8b
+
+Package: proto
+Source: CRAN
+Version: 1.0.0
+Hash: f9a2528572320c1e0bc8783dfd6e0fae
+
 Package: psych
 Source: CRAN
 Version: 1.7.8
@@ -303,6 +348,11 @@ Source: CRAN
 Version: 1.4.2
 Hash: f7149fba72d8b584862025bc4c375d6e
 Requires: Rcpp, plyr, stringr
+
+Package: rjson
+Source: CRAN
+Version: 0.2.15
+Hash: def074f38d0cff3b597649ee6f976128
 
 Package: rlang
 Source: CRAN
@@ -345,6 +395,11 @@ Source: CRAN
 Version: 0.3-1
 Hash: 367275e3dcdd208339e131c7a41bec56
 Requires: stringr
+
+Package: sp
+Source: CRAN
+Version: 1.2-5
+Hash: 355c8b47792e18a08da8708132f994e0
 
 Package: stringi
 Source: CRAN

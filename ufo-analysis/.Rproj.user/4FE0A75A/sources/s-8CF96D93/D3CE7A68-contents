@@ -10,31 +10,68 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(tidyverse)
 library(lubridate)
+install.packages("ggmap")
 library(ggmap)
 
 
 scrubbed <- read_csv("data/scrubbed.csv")
-
-shapes <- scrubbed %>% 
-  group_by(shape) %>% 
-  summarise(count = n()) %>% 
-  arrange(desc(count))
-
-
-countries <- scrubbed %>% 
-  group_by(country) %>% 
-  summarise(count = n()) %>% 
-  arrange(desc(count))
 ```
 
+
+```{r}
+us <- scrubbed %>% 
+  filter(country == "us")
+
+# checking the count of sightings per state
+usstate <- us %>%  
+  group_by(state) %>% 
+  summarise(count = n())
+
+shapestate <- us %>% 
+  group_by(state) %>% 
+  count(shape)
+```
 
 
 ```{r}
 map_data("state")
+head("state")
 ```
 
 
+```{r}
+states <- read_csv("data/states.csv")
+```
 
+
+```{r}
+states$State <- str_to_lower(states$State)
+states$Abbreviation <- str_to_lower(states$Abbreviation)
+colnames(states) <- c("name", "state")
+```
+
+```{r}
+test <- full_join(usstate, states)
+test
+```
+
+```{r}
+mapstate <- map_data("state")
+colnames(mapstate) <- c("long", "lat", "group", "order", "name", "subregion")
+
+test2 <- left_join(mapstate,test)
+test2 <- test2 %>% 
+  select(long,lat,name,state,count)
+
+test2
+```
+
+```{r}
+ggplot(map_data("state")) + 
+  geom_polygon(data = test2, aes(x=long, y = lat, fill = count, group = name)) + 
+  coord_fixed(1.3) +
+  scale_fill_continuous(low = "blue", high = "red")
+```
 
 
 
