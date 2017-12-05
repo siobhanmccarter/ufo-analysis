@@ -26,10 +26,6 @@ us <- scrubbed %>%
 usstate <- us %>%  
   group_by(state) %>% 
   summarise(count = n())
-
-shapestate <- us %>% 
-  group_by(state) %>% 
-  count(shape)
 ```
 
 

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1512502655828.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1677248168",
+    "id" : "8D1B50E5",
+    "lastKnownWriteTime" : 1512503877,
+    "last_content_update" : 1512503877025,
+    "path" : "~/Desktop/MDS/block_3/522/ufo-analysis/src/data-import.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "8,20",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
