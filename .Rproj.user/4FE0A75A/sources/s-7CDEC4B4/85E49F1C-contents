@@ -55,7 +55,7 @@ statejoin
 mapstate <- map_data("state")
 colnames(mapstate) <- c("long", "lat", "group", "order", "name", "subregion")
 
-mapjoin <- left_join(mapstate,test)
+mapjoin <- left_join(mapstate,statejoin)
 mapjoin <- mapjoin %>% 
   select(long,lat,name,state,count)
 ```

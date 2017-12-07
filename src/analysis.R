@@ -21,7 +21,7 @@ statejoin <- full_join(usstate, states)
 mapstate <- map_data("state")
 colnames(mapstate) <- c("long", "lat", "group", "order", "name", "subregion")
 
-mapjoin <- left_join(mapstate,test)
+mapjoin <- left_join(mapstate,statejoin)
 
 
 

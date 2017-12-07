@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4082901386",
+    "hash" : "1114553420",
     "id" : "E99D01D9",
-    "lastKnownWriteTime" : 1512505075,
-    "last_content_update" : 1512505075767,
+    "lastKnownWriteTime" : 1512684098,
+    "last_content_update" : 1512684098867,
     "path" : "~/Desktop/MDS/block_3/522/ufo-analysis/src/analysis.R",
     "project_path" : "src/analysis.R",
     "properties" : {
-        "cursorPosition" : "23,7",
-        "scrollLine" : "7"
+        "cursorPosition" : "24,0",
+        "scrollLine" : "0"
     },
     "relative_order" : 3,
     "source_on_save" : false,

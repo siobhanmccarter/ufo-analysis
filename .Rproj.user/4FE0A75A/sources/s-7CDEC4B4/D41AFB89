@@ -12,10 +12,10 @@
     "path" : "~/Desktop/MDS/block_3/522/ufo-analysis/src/data-import.R",
     "project_path" : "src/data-import.R",
     "properties" : {
-        "cursorPosition" : "2,18",
+        "cursorPosition" : "8,0",
         "scrollLine" : "0"
     },
-    "relative_order" : 2,
+    "relative_order" : 4,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"
