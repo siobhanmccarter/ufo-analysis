@@ -1,5 +1,5 @@
 ---
-title: "test"
+title: "Results"
 output: html_document
 ---
 
@@ -7,25 +7,18 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r}
-library(tidyverse)
-install.packages("ggmap")
-library(ggmap)
+## Hypothesis
 
+I predict that there will be a higher frequency of sightings in the central and southern US states. This is for several reasons: first, night sky visibility is better in rural areas, which would increase the likelihood of spotting a UFO. Second, certain areas (e.g. Texas and New Mexico) are known for famous sightings (Lubbock and Roswell, respectively), which may encourage UFO awareness in the region.
 
-scrubbed <- read_csv("data/scrubbed.csv")
-```
+## Analysis
 
+The first step was to load in the 
 
 ```{r}
-us <- scrubbed %>% 
-  filter(country == "us")
-
-# checking the count of sightings per state
-usstate <- us %>%  
-  group_by(state) %>% 
-  summarise(count = n())
+head(scrubbed)
 ```
+
 
 
 ```{r}
@@ -67,5 +60,7 @@ ggplot(map_data("state")) +
 ```
 
 
+## Results
 
 
+## Conclusion and Summary
