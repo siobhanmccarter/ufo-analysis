@@ -1,11 +1,20 @@
-# Data analysis script
+## Import raw scrubbed data
 
-# Load dependencies
+## Siobhan McCarter, Dec 2017
+# What it does: This script loads in the csv files from scrubbed-import.R and states-import.R, and then performs an
+              # analysis by cleaning and summarising the data.
+
+# Usage: run through R Studio
+
+# Loading dependencies
 library(ggmap)
 
 # Read in the data
 states1 <- read_csv("data/states1.csv")
 scrubbed1 <- read_csv("data/scrubbed1.csv")
+
+scrubbed1 <- scrubbed1 %>% 
+  select(-X1)
 
 # filter to just the US
 us <- scrubbed1 %>% 
@@ -26,15 +35,14 @@ colnames(states1) <- c("name", "state")
 # join the two tables
 statejoin <- full_join(usstate, states1)
 
-scrubbed1 <- scrubbed1 %>% 
-  select(-X1)
-
 # import the map data
 mapstate <- map_data("state")
 colnames(mapstate) <- c("long", "lat", "group", "order", "name", "subregion")
 
+# join map data with summary data
 mapjoin <- left_join(mapstate, statejoin)
 
+# write an export file to be run through the figures.R script
 write.csv(mapjoin, file = "data/mapjoin.csv")
 
 
