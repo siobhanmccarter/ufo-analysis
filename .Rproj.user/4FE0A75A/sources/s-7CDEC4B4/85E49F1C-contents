@@ -9,7 +9,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(tidyverse)
-library(lubridate)
 install.packages("ggmap")
 library(ggmap)
 
@@ -68,5 +67,17 @@ ggplot(map_data("state")) +
 ```
 
 
+```{r}
+states1 <- states1 %>% 
+  select(State, Abbreviation)
+```
 
+```{r}
+scrubbed1 <- scrubbed1 %>% 
+  select(-X1)
+```
+
+```{r}
+maptest1 <- read_csv("data/mapjoin.csv")
+```
 

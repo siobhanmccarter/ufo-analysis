@@ -1,8 +1,0 @@
-## Loading dependencies
-
-library(tidyverse)
-
-# Importing the data
-scrubbed <- read_csv("https://raw.githubusercontent.com/siobhanmccarter/ufo-analysis/master/data/scrubbed.csv")
-
-states <- read_csv("https://raw.githubusercontent.com/siobhanmccarter/ufo-analysis/master/data/states.csv")
