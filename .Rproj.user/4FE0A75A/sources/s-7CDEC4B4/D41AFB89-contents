@@ -1,4 +1,11 @@
-## Loading dependencies
+## Import raw scrubbed data
+
+## Siobhan McCarter, Dec 2017
+# What it does: This script loads in the raw UFO sightings data
+
+# Usage: run through R Studio
+
+# Loading dependencies
 
 library(tidyverse)
 

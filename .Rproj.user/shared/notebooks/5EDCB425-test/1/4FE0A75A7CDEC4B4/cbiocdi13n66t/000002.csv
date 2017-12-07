@@ -1,3 +1,0 @@
-"0","maptest1 <- read_csv(""data/mapjoin.csv"")"
-"2","Error: 'data/mapjoin.csv' does not exist in current working directory ('/Users/siobhanmccarter3/Desktop').
-"
