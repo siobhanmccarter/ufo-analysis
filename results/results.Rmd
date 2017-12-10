@@ -1,6 +1,6 @@
 ---
 title: "UFO Sightings Analysis"
-output: html_document
+output: github_document
 fig_width: 6 
 fig_height: 4
 ---

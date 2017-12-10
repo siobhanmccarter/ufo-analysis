@@ -5,16 +5,16 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2136123697",
+    "hash" : "1184873142",
     "id" : "C464B283",
-    "lastKnownWriteTime" : 1512870420,
-    "last_content_update" : 1512870420341,
+    "lastKnownWriteTime" : 1512870724,
+    "last_content_update" : 1512870724478,
     "path" : "~/Desktop/MDS/block_3/522/ufo-analysis/results/results.Rmd",
     "project_path" : "results/results.Rmd",
     "properties" : {
-        "cursorPosition" : "62,272",
+        "cursorPosition" : "2,23",
         "last_setup_crc32" : "3632B462bb338d19",
-        "scrollLine" : "54"
+        "scrollLine" : "0"
     },
     "relative_order" : 1,
     "source_on_save" : false,
