@@ -1,0 +1,44 @@
+---
+title: "Results"
+output: html_document
+fig_width: 6 
+fig_height: 4
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Hypothesis
+
+I predict that there will be a higher frequency of sightings in the central and southern US states. This is for several reasons: first, night sky visibility is better in rural areas, which would increase the likelihood of spotting a UFO. Second, certain areas (e.g. Texas and New Mexico) are known for famous sightings (Lubbock and Roswell, respectively), which may encourage UFO awareness in the region.
+
+## Analysis
+
+The first step was to load in the raw `scrubbed` dataset, as well as the `states` dataset from `maps_data`. 
+
+```{r}
+head(scrubbed)
+head(states)
+```
+
+From the scrubbed data, I filtered for the 
+
+
+
+
+
+## Results
+
+![](https://raw.githubusercontent.com/siobhanmccarter/ufo-analysis/master/results/figures/ufo_sightings.png)
+
+## Conclusion and Summary
+
+In summary, it appears that . Future studies of this data could incorportate methods such as measuring relative frequency of UFO sightings instead of solely using count per stat2. This would account for more densely-populated states . Further analysis is necessary to draw any meaningful conclusion. 
+
+
+
+
+
+
+
