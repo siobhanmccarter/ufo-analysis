@@ -16,14 +16,24 @@ I predict that there will be a higher frequency of sightings in the central and 
 
 For this project, I imported the data using the `scrubbed-import.R` and `states-import.R` scripts (the `states` data is from `map_data`, and includes the spatial data for each US State). Using the raw data, I used a series of methods to filter down to just US data in the `analysis.R` script. I then produced a map using `ggplot2` to show the total counts per state using the `figures.R` script.
 
+#### Analysis development and dependencies
+
+This project was developed under the following conditions:
+
+```
+R version 3.4.2 (2017-09-28)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS High Sierra 10.13.1
+```
+
 *Dependencies for this analysis*:
 
-* `tidyverse`
-* `ggplot2`
-* `ggmap`
-* `readr`
-* `stringr`
-* `knitr`
+* `tidyverse` v 1.2.1
+* `ggplot2` v 2.2.1 
+* `ggmap` v 2.6.1
+* `readr` v 1.1.1
+* `stringr` v 1.2.0
+* `knitr` v 1.17
 
 ### How to run `ufo-analysis` using Docker
 
