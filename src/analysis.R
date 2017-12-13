@@ -7,8 +7,10 @@
 # Usage: run through R Studio
 
 # Loading dependencies
-library(ggmap)
 library(tidyverse)
+library(ggmap)
+library(readr)
+
 args <- commandArgs(TRUE)
 
 # Read in the data
@@ -45,7 +47,7 @@ colnames(mapstate) <- c("long", "lat", "group", "order", "name", "subregion")
 mapjoin <- left_join(mapstate, statejoin)
 
 # write an export file to be run through the figures.R script
-write.csv(mapjoin, file = args[3]) #arg3 data/mapjoin.csv
+write_csv(mapjoin, args[3]) #arg3 data/mapjoin.csv
 
 
 
