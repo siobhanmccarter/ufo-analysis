@@ -1,9 +1,6 @@
----
-title: "UFO Sightings Analysis"
-output: github_document
-fig_width: 6 
-fig_height: 4
----
+# UFO Analysis Report
+By Siobhan McCarter<br/>
+December 2017
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
