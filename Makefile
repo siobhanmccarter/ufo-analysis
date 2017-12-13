@@ -14,7 +14,7 @@ results/states1.csv: data/states.csv src/states-import.R
 	Rscript src/states-import.R results/states1.csv
 
 # analyze the data
-results/mapjoin.csv: results/scrubbed.csv results/states.csv src/analysis.R
+results/mapjoin.csv: results/scrubbed1.csv results/states1.csv src/analysis.R
 	Rscript src/analysis.R results/states1.csv results/scrubbed1.csv results/mapjoin.csv
 
 # generate the output map
