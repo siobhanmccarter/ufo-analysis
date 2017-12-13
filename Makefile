@@ -8,9 +8,9 @@
 all: doc/results.md
 
 # make data files
-results/scrubbed.csv: data/scrubbed.csv src/scrubbed-import.R
+results/scrubbed1.csv: data/scrubbed.csv src/scrubbed-import.R
 	Rscript src/scrubbed-import.R results/scrubbed1.csv
-results/states.csv: data/states.csv src/states-import.R
+results/states1.csv: data/states.csv src/states-import.R
 	Rscript src/states-import.R results/states1.csv
 
 # analyze the data
