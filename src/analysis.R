@@ -8,6 +8,7 @@
 
 # Loading dependencies
 library(tidyverse)
+library(stringr)
 library(readr)
 
 args <- commandArgs(TRUE)

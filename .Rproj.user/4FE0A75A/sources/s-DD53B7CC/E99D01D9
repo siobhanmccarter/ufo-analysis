@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "3002761991",
     "id" : "E99D01D9",
-    "lastKnownWriteTime" : 1513137205,
-    "last_content_update" : 1513137205721,
+    "lastKnownWriteTime" : 1513137312,
+    "last_content_update" : 1513137312942,
     "path" : "~/Desktop/ufo-analysis/src/analysis.R",
     "project_path" : "src/analysis.R",
     "properties" : {
-        "cursorPosition" : "9,18",
+        "cursorPosition" : "10,15",
         "scrollLine" : "0"
     },
     "relative_order" : 3,
