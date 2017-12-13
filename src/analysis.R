@@ -17,8 +17,8 @@ args <- commandArgs(TRUE)
 states1 <- read_csv(args[1]) # arg1
 scrubbed1 <- read_csv(args[2]) #arg2
 
-scrubbed1 <- scrubbed1 %>% 
-  select(-X1)
+#scrubbed1 <- scrubbed1 %>% 
+  #select(-X1)
 
 # filter to just the US
 us <- scrubbed1 %>% 
@@ -47,7 +47,7 @@ colnames(mapstate) <- c("long", "lat", "group", "order", "name", "subregion")
 mapjoin <- left_join(mapstate, statejoin)
 
 # write an export file to be run through the figures.R script
-write_csv(mapjoin, args[3]) #arg3 data/mapjoin.csv
+write.csv(mapjoin, args[3]) #arg3 data/mapjoin.csv
 
 
 

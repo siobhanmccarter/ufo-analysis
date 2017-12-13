@@ -8,6 +8,13 @@ fig_height: 4
 
 
 
+```
+## Error in open.connection(con, "rb"): HTTP error 404.
+```
+
+```
+## Error in eval(lhs, parent, parent): object 'mapjoin2' not found
+```
 
 
 ## Hypothesis
@@ -86,15 +93,7 @@ head(mapjoin2)
 ```
 
 ```
-## # A tibble: 6 x 8
-##        long      lat group order    name subregion state count
-##       <dbl>    <dbl> <int> <int>   <chr>     <chr> <chr> <int>
-## 1 -87.46201 30.38968     1     1 alabama      <NA>    al   642
-## 2 -87.48493 30.37249     1     2 alabama      <NA>    al   642
-## 3 -87.52503 30.37249     1     3 alabama      <NA>    al   642
-## 4 -87.53076 30.33239     1     4 alabama      <NA>    al   642
-## 5 -87.57087 30.32665     1     5 alabama      <NA>    al   642
-## 6 -87.58806 30.32665     1     6 alabama      <NA>    al   642
+## Error in head(mapjoin2): object 'mapjoin2' not found
 ```
 
 
