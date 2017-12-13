@@ -1,7 +1,9 @@
-# UFO Analysis Report
-By Siobhan McCarter<br/>
-December 2017
-
+---
+title: "UFO Analysis Report"
+author: "Siobhan McCarter"
+date: "December 2017"
+output: github_document
+---
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)

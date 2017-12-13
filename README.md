@@ -23,6 +23,7 @@ For this project, I imported the data using the `scrubbed-import.R` and `states-
 * `ggmap`
 * `readr`
 * `stringr`
+* `knitr`
 
 ### How to run `ufo-analysis` using Docker
 
