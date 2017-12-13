@@ -12,5 +12,7 @@ library(readr)
 
 # Importing the data
 args <- commandArgs(TRUE)
+
+
 scrubbed <- read_csv("https://raw.githubusercontent.com/siobhanmccarter/ufo-analysis/master/data/scrubbed.csv")
 write_csv(scrubbed, args[1])
