@@ -5,4 +5,10 @@
 FROM rocker/tidyverse
 
 # install the ezknitr packages
-RUN Rscript -e "install.packages('ezknitr', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
+RUN Rscript -e "install.packages('ezknitr', repos = 'http://cran.us.r-project.org')"
+
+# install the readr packages
+RUN Rscript -e "install.packages('readr', repos = 'http://cran.us.r-project.org')"
+
+# Install packrat
+RUN Rscript -e "install.packages('packrat', repos = 'http://cran.us.r-project.org')"
