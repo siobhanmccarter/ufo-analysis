@@ -2,15 +2,16 @@
 By Siobhan McCarter<br/>
 December 2017
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
+library(readr)
+library(knitr)
+library(ezknitr)
+
 scrubbed <- read_csv("https://raw.githubusercontent.com/siobhanmccarter/ufo-analysis/master/data/scrubbed.csv")
 states <- read_csv("https://raw.githubusercontent.com/siobhanmccarter/ufo-analysis/master/data/states.csv")
-mapjoin2 <- read_csv("https://raw.githubusercontent.com/siobhanmccarter/ufo-analysis/master/data/mapjoin.csv")
+mapjoin2 <- read_csv("https://raw.githubusercontent.com/siobhanmccarter/ufo-analysis/master/results/mapjoin.csv")
 
 us <- scrubbed %>% 
   filter(country == "us")
@@ -33,21 +34,22 @@ I predict that there will be a higher frequency of sightings in the central and 
 
 The first step was to load in the raw `scrubbed` dataset, as well as the `states` dataset from `maps_data`. 
 
-```{r}
-head(scrubbed)
-head(states)
+```{r, echo = FALSE, results = 'asis', message = FALSE}
+kable(head(scrubbed, 5), caption = "UFO Sightings Raw Data")
+kable(head(states, 10), caption = "States Raw Data")
 ```
 
 From the scrubbed data, I filtered to include only the sightings in the US. From this, I then found the frequency of sightings, as grouped by state:
 
-```{r}
-usstate %>% arrange(desc(count))
+```{r, echo = FALSE, results = 'asis', message = FALSE}
+usstatearr <- usstate %>% arrange(desc(count))
+kable(head(usstatearr, 10), caption = "Top 10 States by Count")
 ```
 
 I then joined this table with the `state` location data in order to produce a map showing the frequency of sightings per state:
 
-```{r}
-head(mapjoin2)
+```{r, echo = FALSE, results = 'asis', message = FALSE}
+kable(head(mapjoin2), caption = "Map and Frequency Table Join")
 ```
 
 
