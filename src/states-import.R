@@ -8,8 +8,9 @@
 # Loading dependencies
 
 library(tidyverse)
+library(readr)
 
 # Importing the data 
 args <- commandArgs(TRUE)
 states <- read_csv("https://raw.githubusercontent.com/siobhanmccarter/ufo-analysis/master/data/states.csv")
-write.csv(states, file = args[1])
+write_csv(states, file = args[1])

@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "79131229",
     "id" : "D41AFB89",
-    "lastKnownWriteTime" : 1513122301,
-    "last_content_update" : 1513122301504,
+    "lastKnownWriteTime" : 1513136223,
+    "last_content_update" : 1513136223236,
     "path" : "~/Desktop/ufo-analysis/src/scrubbed-import.R",
     "project_path" : "src/scrubbed-import.R",
     "properties" : {
-        "cursorPosition" : "12,0",
+        "cursorPosition" : "15,6",
         "scrollLine" : "0"
     },
     "relative_order" : 4,
