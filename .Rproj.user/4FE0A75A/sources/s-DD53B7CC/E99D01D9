@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "E99D01D9",
-    "lastKnownWriteTime" : 1513137086,
-    "last_content_update" : 1513137086491,
+    "lastKnownWriteTime" : 1513137205,
+    "last_content_update" : 1513137205721,
     "path" : "~/Desktop/ufo-analysis/src/analysis.R",
     "project_path" : "src/analysis.R",
     "properties" : {
-        "cursorPosition" : "20,3",
-        "scrollLine" : "12"
+        "cursorPosition" : "9,18",
+        "scrollLine" : "0"
     },
     "relative_order" : 3,
     "source_on_save" : false,

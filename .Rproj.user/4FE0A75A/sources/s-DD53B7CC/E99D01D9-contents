@@ -8,7 +8,6 @@
 
 # Loading dependencies
 library(tidyverse)
-library(ggmap)
 library(readr)
 
 args <- commandArgs(TRUE)
