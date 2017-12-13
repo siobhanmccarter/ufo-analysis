@@ -9,10 +9,10 @@ Rscript src/scrubbed-import.R data/scrubbed1.csv
 Rscript src/states-import.R data/states1.csv
 
 # analyze the data
-Rscript src/analysis.R data/mapjoin.csv
+Rscript src/analysis.R data/states1.csv data/scrubbed1.csv data/mapjoin.csv
 
 # generate the output map
-#Rscript
+Rscript src/figures.R data/mapjoin.csv results/figures/ufo_sightings.png
 
 # write to an .Rmd
-#Rscript -e 'ezknitr::ezknit("src/count_report.Rmd", out_dir = "doc")'
+Rscript -e 'ezknitr::ezknit("src/results.Rmd", out_dir = "doc")'

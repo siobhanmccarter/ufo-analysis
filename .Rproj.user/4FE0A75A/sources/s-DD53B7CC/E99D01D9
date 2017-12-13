@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1512504753705.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E99D01D9",
+    "lastKnownWriteTime" : 1513123191,
+    "last_content_update" : 1513123191030,
+    "path" : "~/Desktop/ufo-analysis/src/analysis.R",
+    "project_path" : "src/analysis.R",
+    "properties" : {
+        "cursorPosition" : "11,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
