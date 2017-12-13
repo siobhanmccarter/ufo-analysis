@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "243804656",
+    "hash" : "0",
     "id" : "B7574338",
-    "lastKnownWriteTime" : 1513136236,
-    "last_content_update" : 1513136236038,
+    "lastKnownWriteTime" : 1513136397,
+    "last_content_update" : 1513136397690,
     "path" : "~/Desktop/ufo-analysis/src/states-import.R",
     "project_path" : "src/states-import.R",
     "properties" : {
-        "cursorPosition" : "10,13",
+        "cursorPosition" : "15,18",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },
